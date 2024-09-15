@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",  
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "moduleResolution": "node",
+      "allowJs": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "sourceMap": true,
+      "noEmit": true, 
+      "outDir": "../../dist/data"
+    },
+    "include": ["src/**/*.ts", "tests/**/*.ts"]
+  }
+  
