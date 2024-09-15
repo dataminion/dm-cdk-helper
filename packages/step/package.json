@@ -1,0 +1,30 @@
+{
+  "name": "@dm-cdk-helper/step",
+  "version": "0.0.0",
+  "main": "../../dist/step/index.js",
+  "types": "../../dist/step/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.158.0",
+    "constructs": "^10.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "jest": "^27.0.0",                        
+    "ts-jest": "^27.0.0",                     
+    "@types/jest": "^27.0.0",                 
+    "@babel/preset-env": "^7.0.0",            
+    "@babel/preset-typescript": "^7.0.0",     
+    "babel-jest": "^27.0.0"                   
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"           
+    },
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.tsx?$",  
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]  
+  }
+}
