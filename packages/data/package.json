@@ -1,0 +1,17 @@
+{
+    "name": "@dm-cdk-helper/data",
+    "version": "0.0.0",
+    "main": "../../dist/step/index.js",
+    "types": "../../dist/step/index.d.ts",
+    "scripts": {
+      "build": "tsc"
+    },
+    "dependencies": {
+      "@aws-amplify/backend": "^1.2.1",
+      "aws-cdk-lib": "^2.0.0",
+      "constructs": "^10.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^4.5.0"
+    }
+  }
