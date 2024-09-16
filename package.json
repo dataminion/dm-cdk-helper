@@ -1,6 +1,6 @@
 {
   "name": "dm-cdk-helper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Reusable AWS CDK helpers for Step Functions, Lambda, and more",
   "workspaces": [
     "packages/step",
