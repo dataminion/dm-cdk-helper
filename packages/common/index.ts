@@ -1,1 +1,1 @@
-export * from '../../dist/step/lib'
+export * from './step/lib'
