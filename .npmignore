@@ -1,0 +1,10 @@
+# Ignore everything except dist
+!dist/
+
+# Ignore local development files
+node_modules/
+*.log
+packages/
+src/
+tests/
+tsconfig.json

@@ -3,12 +3,19 @@
   "version": "0.0.3",
   "description": "Reusable AWS CDK helpers for Step Functions, Lambda, and more",
   "workspaces": [
-    "packages/step"
+    "packages/step",
+    "packages/common"
   ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces"
   },
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
   "devDependencies": {
     "@aws-cdk/assertions": "^1.204.0",
     "@types/jest": "^29.5.13",

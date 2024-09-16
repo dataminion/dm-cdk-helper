@@ -1,8 +1,7 @@
 {
-  "name": "@dm-cdk-helper/step",
-  "version": "0.0.1",
-  "main": "../../dist/step/lib/index.js",
-  "types": "../../dist/step/lib/index.d.ts",
+  "name": "dm-cdk-helper",
+  "main": "../../dist/index.js",
+  "types": "../../dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest"
